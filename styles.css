@@ -1,0 +1,90 @@
+body {
+    background-color: #F4F6FF;
+    font-family:'Fjalla One', sans-serif;;
+    padding:0 50px;
+    color: #10375C;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    text-align: center;
+    
+    
+
+}
+
+.underline {
+    height: 4px;
+    width: 300px;
+    background-color: #F3C623;
+   margin: auto;
+    
+}
+
+.subtitle {
+    text-align: center;
+    
+    
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: solid 2px;
+    border-color: #F3C623;
+}
+
+.menu-sale {
+    display: flex;
+    
+    
+}
+
+.food-images {
+    position: absolute;
+    width: 300px;
+    right: 100px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.photo {
+    width:300px;
+    height: 300px;
+    border: solid 4px;
+    border-color: #F3C623;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+
+}
+
+.photo:hover {
+    opacity: 1;
+}
+
+.bar {
+    border: solid 4px;
+    border-color:#10375C ;
+    width: 300px;
+    text-align: center;
+    margin: 50px;
+   
+}
+
+.menu-item {
+    margin-left: 50px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+
+
+.menu-sucre {
+    display: flex;
+}
