@@ -54,8 +54,10 @@ const menuSucre = [{
 
 
 
+
 const sectionSale = document.querySelector(".menu-sale");
 const sectionSucre = document.querySelector(".menu-sucre");
+
 
 window.addEventListener("DOMContentLoaded", function () {
     const displayMenu = (menu) => {
